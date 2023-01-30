@@ -6,26 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6"> restaurant name </div>
+            <div class="row row-header">
+                <div class="col-12 col-sm-6"> restaurant name (row-header)</div>
                 <div class="col-12 col-sm"> ... </div>
             </div>
         </div>
     </header>
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-4 order-sm-last-md-3"> ... </div> 
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last-md-3"> row-content ... </div> 
             <div class="col col-sm order-sm-first col-md"> ... </div>
         </div>
+        <div class="row row-content"></div>
+        <div class="row row-content"></div>
     </div>
-    <footer>
-        <div class="container">
-            <div class="col-4 offset-1 col-sm-2"> <ul></ul> </div>
+    <footer class="footer">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <div class="text-center"></div>
+            </div>
+            <div class="col-4 offset-1 col-sm-2"> <ul class="list-unstyled">...</ul> </div>
             <div class="col-7 col-sm-5"> ... </div>
             <div class="col-12 col-sm-4"> ... </div>
             <div class="col-auto"> ... </div>
@@ -35,5 +40,5 @@
 </body>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
 </html>
